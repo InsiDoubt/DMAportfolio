@@ -19,7 +19,6 @@ img{
 	font-weight: 500;
 	background: rgba(0,0,0,.75);
 	padding: 10px;	
-	
 }
 /*header
 */
@@ -39,6 +38,8 @@ h1 {
 	color: white;
 }
 nav ul {
+	display: inline-block;
+	text-align: center;
 	margin: 0;
 	list-style: none;
 	}
@@ -68,14 +69,27 @@ nav a:focus {
 .Artist-Statement {
 	color: white;
 	margin-top: 2em;
-	margin-right: 5em;
-	margin-left:5em;
+	margin-right: auto;
+	margin-left:auto;
 	background-color: #3E3E3E;
 	outline: 5px solid #69898B;
 	outline-offset: -2em;
 	padding: 50px;
 }
-
+.About {
+	color: white;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #3E3E3E;
+	outline: 5px solid #69898B;
+	outline-offset: -2em;
+	padding: 50px;
+	font-size: 120%;
+}
+.PortfolioBox {
+	padding: 0;
+}
 /*---Portfolio Items... God Save us all---*/
 .PortfolioItem {
 /*display: flex;*/
@@ -87,7 +101,17 @@ margin: auto;
 	margin-top: 1em; 
 }
 
+figure {
+	color: white;
+}
 .Portfolio-DMA {
 display: flex;
 flex-flow: row wrap;
+}
+
+.Detail-Image {
+	max-width: 70%;
+	display: inline-block;
+	text-decoration: none;
+	
 }
